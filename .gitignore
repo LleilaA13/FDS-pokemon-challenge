@@ -12,3 +12,43 @@ node_modules/
 .DS_Store
 .idea/
 *.log
+# Large model artifacts
+/models/
+/checkpoints/
+/weights/
+catboost_info/
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.ckpt.*
+*.pb
+
+# Serialized datasets / caches / large binary formats
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.joblib
+*.npz
+*.npy
+*.sqlite
+*.db
+/data/
+raw_data/
+processed_data/
+
+# Archives and packaged data
+*.tar.gz
+*.tgz
+*.tar
+*.zip
+
+# Build, cache, and environment folders
+.pytest_cache/
+.cache/
+.mypy_cache/
+pip-wheel-metadata/
+dist/
+build/
