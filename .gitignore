@@ -1,2 +1,14 @@
 test.jsonl
 train.jsonl
+valid.jsonl
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.env
+venv/
+.env/
+node_modules/
+.vscode/
+.DS_Store
+.idea/
+*.log
